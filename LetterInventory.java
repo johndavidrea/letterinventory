@@ -60,7 +60,7 @@ public class LetterInventory {
         }
         return sum;
     }
-    // returns a new inventory object that's the difference of this object minus the passed-in object
+    // returns a new inventory object that's the difference of this object and the passed-in object
     public LetterInventory subtract(LetterInventory other) {
         LetterInventory difference = new LetterInventory("");
         for (int i = 0; i < lettersInAlphabet; i++) {
